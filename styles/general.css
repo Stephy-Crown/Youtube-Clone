@@ -1,0 +1,17 @@
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* body {
+  margin: 0;
+  background-color: rgb(250, 245, 245);
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-right: 28px;
+  /* This style is shoeing how inheritance works*/
+/* font-family: Roboto, Arial; */
+/* } */
+body {
+  margin: 0;
+}
