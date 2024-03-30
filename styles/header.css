@@ -2,6 +2,15 @@ header {
   height: 55px;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(228, 228, 228);
+  z-index: 100;
 }
 
 .left-section {
@@ -81,6 +90,22 @@ header {
 .youtube-apps-icon,
 .notifications-icon {
   height: 24px;
+}
+
+.notifications-icon-container {
+  position: relative;
+}
+.notifications-count {
+  position: absolute;
+  top: -2px;
+  /* negative numbers set iot beyond the relative element */
+  right: -5px;
+  background-color: rgb(200, 0, 0);
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 10px;
 }
 
 .current-user-picture {
